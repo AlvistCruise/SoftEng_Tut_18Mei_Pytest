@@ -28,7 +28,7 @@ test_data = [
     # Rows 18-25: Variable durations, With Accommodations
     (90, True, 2, 11, False, "Submit"),        # Row 18
     (80, True, 4, 24, True, "Cancel"),         # Row 19
-    (67, True, 5, 23, True, "Rejected"),       # Row 21
+    (67, True, 5, 50, True, "Rejected"),       # Row 21
     (50, True, 9, 24, False, "autosubmit"),    # Row 22
     (56, True, 23, 32, True, "autosubmit"),    # Row 23
     (32, True, 12, 45, False, "autosubmit"),   # Row 24
@@ -60,3 +60,5 @@ def test_compute_online_exam(exam_max_duration, accomodation_status, dc_duration
     
     # Verify the logic matches the expected output table
     assert result == expected
+
+# python -m pytest test/test.py -v
