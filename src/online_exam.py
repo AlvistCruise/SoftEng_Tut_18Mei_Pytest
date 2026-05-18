@@ -6,7 +6,6 @@ def compute_online_exam(
         login_time,
         is_public_holiday
 ):
-
         if exam_max_duration > 120:
                 return "Error"
         
