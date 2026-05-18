@@ -6,4 +6,4 @@ def compute_online_exam(
         login_time,
         is_public_holiday
 ):
-    return 0
+    return 0AOWKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
